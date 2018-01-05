@@ -1,7 +1,7 @@
 /* Preload images */
 /* Thumbnailhöhe 200 */
 /* Large größe 1500*1080 */
-font-family:'Dosis',sans-serif; 
+font-family: 'Dosis', sans-serif; 
 body:after {
   content: url(../images/close.png) url(../images/loading.gif) url(../images/prev.png) url(../images/next.png);
   display: none;
