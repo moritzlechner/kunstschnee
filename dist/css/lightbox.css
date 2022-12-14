@@ -1,14 +1,14 @@
 /* Preload images */
 /* Thumbnailhöhe 200 */
 /* Large größe 1500*1080 */
-font-family: 'Dosis', sans-serif; 
+font-family: 'dosisregular', sans-serif; 
 body:after {
   content: url(../images/close.png) url(../images/loading.gif) url(../images/prev.png) url(../images/next.png);
   display: none;
 }
 
 body {
-  font-family: Dosis;
+  font-family: dosisregular;
   -webkit-font-smoothing: antialiased;
   font-size: 20px; 
   color: #adadad;
@@ -23,7 +23,7 @@ body p {
 }
 
 body pre {
-    font-family: Dosis;
+    font-family: dosisregular;
     -webkit-font-smoothing: antialiased;
     font-size: 15px;
     line-height: 150%;
